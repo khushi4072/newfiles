@@ -1,0 +1,57 @@
+.main-logo{
+    height:800px;
+    width:80%;
+    margin:auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-logo1{
+    height:800px;
+    width:80%;
+    margin:auto;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.img{
+    height:100px;
+    width:220px;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (max-width:600px){
+.main-logo1{
+    flex-direction: column;
+    height:450px;
+
+
+}
+
+.img{
+    height:60%;
+    width:100%;
+}
+.main-logo{
+    height:auto;
+}
+    
+}
+
+@media screen and (min-width:650px){
+  
+    .img{
+        height:100%;
+        width:100%;
+        margin-left:12px;
+        margin-right:12px;
+    }
+   
+        
+    }
